@@ -11,7 +11,11 @@
 2) Activate virtual environment `source intro_to_ds_env/bin/activate`
 3) Install dependencies from `requirements.txt` with pip (or some another package manager) `pip install -r requirements.txt`
 
+
+
 # Run Jupyter Notebook
+
+! Create `data_files` named folder or equivalent (change `TARGET` at the start of the notebook the folder you create) and gitignore that to make notebook to work correctly !
 
 ## Vscode
 
