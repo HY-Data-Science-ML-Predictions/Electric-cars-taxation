@@ -1,5 +1,5 @@
 intro_to_ds_env
-data_files
+data_files/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

@@ -18,13 +18,18 @@ def create_year_list(start_year: int, end_year: int) -> np.ndarray[str]|None:
     return None
 
 
+from pathlib import Path
 import json
 
 def json_to_text(json_file, text_output_path):
     try:
+        output_path = Path(text_output_path)
+
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+
         pretty_json_str = json.dumps(json_file, indent=4)
 
-        with open(text_output_path, 'w', encoding='utf-8') as text_file:
+        with output_path.open('w', encoding='utf-8') as text_file:
             text_file.write(pretty_json_str)
 
         print(f"JSON data has been successfully written to {text_output_path}")
