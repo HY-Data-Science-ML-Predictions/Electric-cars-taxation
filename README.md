@@ -5,6 +5,10 @@
 
 [Data source from the Statistics Finland](https://intro-to-ds.slack.com/archives/C07KZ8XTAUD/p1725533179688559)
 
+[Mini-project report](<Mini-project report.pdf>)
+
+[Blog Post: Can We Predict How Many Electric Cars Will Be Sold After 2025](<Blog Post_ Can We Predict How Many Electric Cars Will Be Sold After 2025_.pdf>)
+
 # Install venv and dependencies
 
 1) Install virtual environment (Ubuntu) with `python3 -m venv intro_to_ds_env`.
